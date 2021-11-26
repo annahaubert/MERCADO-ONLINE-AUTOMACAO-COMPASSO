@@ -1,0 +1,18 @@
+{
+    "env": {
+        "BASE_URL": "https://701523.commercesuite.com.br"
+    },
+    "chromeWebSecurity": false,
+    "video": false,
+    "screenshot": false,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "report/mochawesome-report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "timestamp": "yyyymmdd_HHMMss",
+        "reportTitles": "Relatorios",
+        "charts": true
+    }    
+}
